@@ -145,8 +145,10 @@
 </head>
 <body>
 
-    <!-- Log Out button (right aligned) -->
-    <a href="LogOut.java" class="logout-button">Log Out</a>
+    <!-- Logout Button -->
+    <form action="LogOut" method="post" style="text-align: right;">
+        <input type="submit" value="Logout" class="logout-button">
+    </form>
 
     <div class="content-container">
         <h1>About Us</h1>
